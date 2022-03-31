@@ -1,7 +1,9 @@
 {
-  "name": "custom-modal",
+  "name": "sblr-custom-modal",
   "version": "0.1.0",
-  "private": true,
+  "description": "Quicly create modal dialogs",
+  "main": "src/index.js",
+  "bin": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -9,13 +11,27 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "styled-components": "^5.3.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "modal",
+    "dialog",
+    "popup",
+    "alert",
+    "confirm",
+    "prompt"
+  ],
+  "author": "sblr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenBLR/CustomModal.git"
   },
   "eslintConfig": {
     "extends": [
