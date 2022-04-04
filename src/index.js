@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -15,3 +16,15 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+=======
+import React from "react";
+import ReactDOM from "react-dom";
+import Modal from "./components/Modal";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Modal />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+>>>>>>> parent of deaa3a3 (Update pkg.json)
