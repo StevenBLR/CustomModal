@@ -2,8 +2,8 @@
   "name": "sblr-custom-modal",
   "version": "0.1.0",
   "description": "Quicly create modal dialogs",
-  "main": "src/index.js",
-  "bin": "src/index.js",
+  "main": "src/Modal.js",
+  "bin": "src/Modal.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
