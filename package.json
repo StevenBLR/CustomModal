@@ -1,6 +1,6 @@
 {
   "name": "sblr-custom-modal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Quicly create modal dialogs",
   "private": false,
   "main": "dist/Modal.js",
