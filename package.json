@@ -3,8 +3,8 @@
   "version": "0.1.1",
   "description": "Quicly create modal dialogs",
   "private": false,
-  "main": "src/Modal.js",
-  "bin": "src/Modal.js",
+  "main": "dist/Modal.js",
+  "bin": "dist/Modal.js",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.3",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "babel src/Modal.js --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
